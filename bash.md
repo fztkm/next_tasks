@@ -6,6 +6,10 @@
 ❯ npm i -D @types/react-icons
 ```
 
+## 34
+```sh
+❯ npm i mongoose
+```
 ## 23
 ```sh
 ```
