@@ -1,3 +1,4 @@
+import TaskCard from '@/components/TaskCard/TaskCard'
 import Link from 'next/link'
 import React from 'react'
 import { MdAddTask } from 'react-icons/md'
@@ -13,7 +14,7 @@ const MainPage = () => {
             </Link>
         </header>
         <div className='mt-8 flex gap-4'>
-            Task Card
+            <TaskCard/>
         </div>
     </div>
   )
