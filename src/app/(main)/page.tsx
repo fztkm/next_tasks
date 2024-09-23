@@ -19,7 +19,6 @@ const getAllTasks = async (): Promise<TaskDocument[]> => {
 
 const MainPage = async() => {
     const allTasks = await getAllTasks()
-    console.log(allTasks)
     return (
         <div className='text-gray-800 p-8 h-full overflow-y-auto pb-24'>
             <header className='flex justify-between items-center'>
